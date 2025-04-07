@@ -51,7 +51,7 @@ def calib_camera_from_chessboard(images, board_pattern, board_cellsize, K=None, 
     return cv.calibrateCamera(obj_points, img_points, gray.shape[::-1], K, dist_coeff, flags=calib_flags)
 
 if __name__ == '__main__':
-    video_file = 'chessboard.mp4'       
+    video_file = 'data/chessboard.mp4'       
     board_pattern = (8, 6)                     
     board_cellsize = 0.029         # 한 칸의 실제 크기 (m 단위)
 

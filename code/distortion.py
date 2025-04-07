@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-video_file = 'chessboard.mp4'  
+video_file = 'data/chessboard.mp4'  
 
 K = np.array([
     [911.06897706, 0, 959.39682216],
