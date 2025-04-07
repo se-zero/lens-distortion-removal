@@ -16,7 +16,8 @@
 ---
 
 ## 🧪 캘리브레이션 결과
--The number of selected images = 9
+
+- The number of selected images = 9
 - RMS reprojection error = 1.410557
 - Camera matrix (K) =
 [[911.06897706   0.         959.39682216]
